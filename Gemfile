@@ -11,8 +11,8 @@ gem "jekyll", "~> 4.3.3"
 
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-#gem "minima", "~> 2.5"
-gem "minimal-mistakes-jekyll"
+gem "minima", "~> 2.5"
+#gem "minimal-mistakes-jekyll"
 #gem "minimal-mistakes-jekyll", "~> 4.20.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -23,7 +23,8 @@ gem "minimal-mistakes-jekyll"
 #  gem "jekyll-feed", "~> 0.12"
 #end
 
-gem "github-pages", group: :jekyll_plugins
+gem 'github-pages', '>= 178', '< 179', group: :jekyll_plugins
+#gem "github-pages", '>= 166', '< 180', group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

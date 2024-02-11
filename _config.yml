@@ -31,8 +31,14 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
+#theme: minimal-mistakes-jekyll
+
 plugins:
   - jekyll-feed
+
+
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 # Exclude from processing.
 # The following items will not be processed, by default.
